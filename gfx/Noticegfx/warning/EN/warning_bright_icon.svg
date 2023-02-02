@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="svg182"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="warning_bright_icon.svg"
+   x="0px"
+   y="0px"
+   width="10.1mm"
+   height="9mm"
+   viewBox="0 0 38.17323 34.015748"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs21" /><sodipodi:namedview
+   id="namedview19"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="11.304701"
+   inkscape:cx="29.766378"
+   inkscape:cy="23.574263"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg182"
+   units="mm"
+   inkscape:document-units="mm" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#F9A800;stroke:#000000;stroke-width:3.3053;stroke-miterlimit:10;}
+	.st1{display:none;stroke:#000000;stroke-width:1.6629;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.7071;stroke-miterlimit:10;}
+</style>
+<g
+   id="triangle_copy"
+   transform="matrix(0.77199853,0,0,0.77199853,-4.0487973,-1.275775)">
+	<g
+   id="g13">
+		<path
+   id="path9"
+   class="st0"
+   d="M 28.8,4.3 7.3,41.4 c -0.5,0.9 0.1,2.1 1.2,2.1 h 42.9 c 1.1,0 1.8,-1.2 1.2,-2.1 L 31.2,4.3 c -0.5,-1 -1.9,-1 -2.4,0 z" />
+		<path
+   id="path11"
+   class="st1"
+   d="m 30,33.9 c 0.5,0 0.9,0.2 1.3,0.5 0.3,0.3 0.5,0.8 0.5,1.3 0,0.5 -0.2,0.9 -0.5,1.3 -0.4,0.3 -0.8,0.5 -1.3,0.5 -0.5,0 -0.9,-0.2 -1.3,-0.5 -0.4,-0.3 -0.5,-0.8 -0.5,-1.3 0,-0.5 0.2,-0.9 0.5,-1.3 0.4,-0.3 0.8,-0.5 1.3,-0.5 z M 29.4,30.8 28.3,18.1 c 0,-0.4 -0.1,-0.6 -0.1,-0.7 0,-0.7 0.2,-1.2 0.5,-1.5 0.3,-0.3 0.8,-0.5 1.3,-0.5 0.5,0 0.9,0.2 1.2,0.5 0.3,0.3 0.5,0.7 0.5,1.3 0,0.2 0,0.5 -0.1,0.9 L 30.5,31 h -1.1 z" />
+	</g>
+</g>
+
+
+<g
+   transform="matrix(0.06273639,0,0,0.06273639,58.330832,7.2533821)"
+   stroke-dashoffset="0"
+   stroke="#000000"
+   stroke-linecap="square"
+   stroke-miterlimit="4"
+   stroke-dasharray="none"
+   fill="#000000"
+   id="g14"><path
+     d="m -622,105.22 -12.5,77.531 -52.281,-58.594 31.375,71.969 -75.656,-21.031 65.344,43.594 -75.031,23.219 78.531,1.3438 -50.562,60.062 66.781,-41.281 -10.062,77.875 33.844,-70.875 33.656,70.969 -9.8438,-77.906 66.656,41.5 -50.375,-60.25 78.5,-1.125 -74.938,-23.406 65.438,-43.406 -75.719,20.812 31.594,-71.875 -52.438,58.438 -12.31,-77.54 z m 0.5,82.219 c 21.27,0 38.531,17.261 38.531,38.531 0,21.27 -17.261,38.562 -38.531,38.562 -21.27,-10e-6 -38.531,-17.292 -38.531,-38.562 0,-21.27 17.261,-38.531 38.531,-38.531 z"
+     stroke-width="1.2413"
+     id="path10" /><path
+     d="m -283.77,72.153 c 0,22.281 -18.063,40.344 -40.344,40.344 -22.281,0 -40.344,-18.063 -40.344,-40.344 0,-22.281 18.063,-40.344 40.344,-40.344 22.281,0 40.344,18.063 40.344,40.344 z"
+     transform="matrix(0.779473,0,0,0.779473,-369.313,168.9978)"
+     stroke-width="1.08171"
+     id="path12" /></g></svg>

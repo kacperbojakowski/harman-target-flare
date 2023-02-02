@@ -1,0 +1,48 @@
+﻿/*If you want to use responsive image maps, link to this stylesheet from your topics and master pages*/
+
+/* removes H1 topic label heading margin top */
+
+/*on mobile, makes the popup screen-wide*/
+@media only screen and (max-width:768px)
+{
+	div.MCTopicPopupContainer 
+	{
+		left: 5% !important;
+		right: 5% !important;
+		bottom: 35% !important;
+	}
+}
+
+img
+{
+	max-width: 100%;
+}
+
+/*popup size and position*/
+div.MCTopicPopupContainer
+{
+	top: 12%;
+	bottom: 60%;
+	left: 20%;
+	right: 20%;
+	max-width: 1400px;
+}
+
+button.CloseTopicPopupButton
+{
+	color: #696969;
+}
+
+button.CloseTopicPopupButton.CloseTopicOuter
+{
+	top: -13px;
+	right: 8px;
+}
+
+/*moves the scroll bar a bit lower so it doesn't overlap with the 'x' button*/
+.MCTopicPopupBody
+{
+	margin-top: 12px;
+	height: 97% !important;
+}
+

@@ -1,0 +1,80 @@
+﻿/* Defines color and font variables used in the stylesheets. If expanding the template, keep the variables in a logical order, and add necessary descriptions. */
+
+:root {
+  /*branding*/
+  --brand: #5a6da8;
+  --dark: #243e8b;
+  --light: #98a4c9;
+  --secondary: #0d47a1;
+  --secondary-dark: #002171;
+  --secondary-light: #5472d3;
+  --background: #ffffff;
+  --font-color: #404040;
+  --font-html: "Roboto", sans-serif;
+  --font-pdf: 'Calibri';
+  /*--custom-bullet: ;*/
+
+  /*font for: code samples, user input, system output*/
+  --font-code: monospace;
+
+  /*HTML*/
+  --link: #5472d3;
+  --link-hover: #263083;
+
+  /*HTML - custom header*/
+  --menu-dropdown: #664dc3;
+  --menu-hover: #3e0bcc;
+
+  /*PDF*/
+  --booktitle: #4f2683;
+  --booksubtitle: #404040;
+  --booksummary: #000000;
+  --border-bottom: #404040; /*A4, A5 style*/
+  --border-top: #404040; /*A4, A5 style*/
+
+  /*common colours*/
+  --alabaster: #fcfcfc;
+  --black: #000000;
+  --blue: #0068b3;
+  --dark-blue: #034694;
+  --dark-green: #006600;
+  --dark-gray: #333333;
+  --dim-gray: #696969;
+  --draft-gray: #d3d3d3;
+  --green: #008000;
+  --light-gray: #f9f9f9;
+  --medium-gray: #a6a8aa;
+  --orange: #f49100;
+  --red: #ff0000;
+  --silver: #c0c0c0;
+  --white: #ffffff;
+  --yellow: #ffff00;
+
+  /*colours for the notices*/
+  --notice-danger-background: #fff1f6;
+  --notice-danger-border: #d01f31;
+
+  --notice-warning-background: #fcf7f2;
+  --notice-warning-border: #f68121;
+
+  --notice-caution-background: #fffbea;
+  --notice-caution-border: #fbdd0b;
+
+  --notice-notice-background: #f0f7fb;
+  --notice-notice-border: #0072b9;
+
+  --notice-tip-background: #f0f0f0;
+
+  --notice-warning-software-background: #fcf7f2;
+  --notice-warning-software-border: #f68121;
+
+  --notice-info-software-background: #f0f7fb;
+  --notice-info-software-border: #0072b9;
+
+  --notice-tip-software-background: #e6fff1;
+  --notice-tip-software-border: #99cc99;
+  /*end of colours for the notices*/
+
+  /*styles for internal use*/
+  --annotation-green: #00ff00;
+}

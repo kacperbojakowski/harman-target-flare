@@ -1,0 +1,202 @@
+﻿/*
+Styles used for mini-toc > page-nav 
+Use in conjunction with js/page-nav.js
+*/
+@import url('..Stylesheets/css-variables.css');
+
+.product-menu  > ul > li > ul > li > ul.sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-menu  > ul > li > ul > li > ul.sub-menu > li {
+    width: calc(50% - 24px);
+}
+@media only screen and (max-width:1024px){
+    .product-menu  > ul > li > ul > li > ul.sub-menu > li {
+        width: calc(100% - 24px);
+    }
+}
+
+ul.menu._Skins_ProductMenu.mc-component a {
+    font-size: 0.95em;
+}
+
+ul.menu._Skins_ProductMenu.mc-component {
+    width: auto;
+}
+
+.product-menu ul.menu._Skins_ProductMenu.mc-component li > a {
+    padding-left: 0;
+    margin-top: 8px;
+}
+.product-menu ul.menu._Skins_ProductMenu.mc-component > li.has-children > ul.sub-menu > li.has-children > .element-no-link {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.product-menu ul.menu._Skins_ProductMenu.mc-component .element-no-link {
+    color: var(--font-color);
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 28px;
+    line-height: 28px;
+}
+.product-menu ul > li.has-children[data-mc-id="0"] > a {
+    display:none;
+}
+.product-menu ul.menu._Skins_ProductMenu.mc-component > li > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-menu ul > li > ul > li > ul > li > ul {
+    display: block;
+}
+.product-menu ul > li > ul > li > ul > li {
+    width: 90%;
+    /*list-style: disc;*/
+    color: var(--font-color);
+    margin-left: 24px;
+}
+
+ul.menu._Skins_ProductMenu.mc-component ul li a:hover {
+    background-color: transparent !important;
+    color:var(--brand);
+    font-weight: 600;
+}
+
+
+/* Expand/collapse */
+.product-menu span.expand-collapse {
+
+    color: var(--brand);
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 16px;
+    display: block;
+}
+
+.product-menu span.expand-collapse::after {
+    content: " >";
+}
+
+.product-menu ul.sub-menu > ul.sub-menu {
+    color: var(--font-color);
+}
+
+@media only screen and (max-width:1024px){
+    .body-container {
+        padding-left: 0!important;
+    }
+    .sidebar_outer{
+        display:none;
+    }
+
+}
+
+.product-menu ul.menu._Skins_ProductMenu.mc-component li > a.selected {
+    font-size: 1.25em;
+}
+
+    /*Product menu*/
+    .product-menu ul.menu._Skins_ProductMenu.mc-component > li > ul > li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+@media only screen and (max-width:480px){
+    /*Product menu*/
+    .product-menu ul.menu._Skins_ProductMenu.mc-component {
+        display: block;
+        padding-left: 0;
+    }
+    .product-menu ul.menu._Skins_ProductMenu.mc-component li > a {
+        margin-top: 0;
+    }
+}
+
+
+/* == Right-column styling == */
+
+
+/* Changes to content and footer to allow correct position of the right hand column */
+.content
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+#contentBody
+{
+	width: calc(100% - 290px);
+}
+.footer
+{
+	width: 100%;
+}
+
+/* Styles for right hand column */
+div.rightcolumn
+{
+	max-width: 290px;
+	position: sticky;
+	margin-bottom: 120px;
+	padding: 40px 0 40px 40px;
+	top: 0;
+	bottom: 10%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	max-height: calc(100vh - 100px);
+	height: 100%;
+}
+.rightcolumn p
+{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+	margin: 8px 0;
+	color: var(--font-color);
+}
+
+p.rcolumn-title
+{
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+p.rcolumn-button
+{
+	font-weight: normal;
+	margin-bottom: 24px;
+}
+
+p.rcolumn-button a
+{
+	display: inline-block;
+	text-align: center;
+	padding: 7px 16px;
+	height: auto;
+	background: var(--white);
+	border: solid 1px var(--brand);
+	color: var(--brand);
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+	div.rightcolumn
+	{
+		position: initial;
+		margin-bottom: 20px;
+		padding: 40px 0 20px 10px;
+	}
+	#contentBody
+	{
+		width: 100%;
+	}
+	
+
+
+}
